@@ -19,5 +19,6 @@ module.exports = (webpackConfigEnv, argv) => {
         src: path.resolve(__dirname, "src"),
       },
     },
+    externals: ["@mui/icons-material", "@mui/material", "single-spa-react"]
   });
 };
